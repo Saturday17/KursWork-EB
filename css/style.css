@@ -1,5 +1,10 @@
 body{
-	font-family: "Ubuntu Condensed", sans-serit;
+	font-family: Comic Sans MS, Comic Sans, cursive;
+}
+.bd-navbar{
+	position: sticky;
+	top: 0;
+	z-index: 100;
 }
 img{
 	max-width: 100%;
@@ -15,28 +20,89 @@ h2{
 #page-wrapper .navbar{
 	background: #563d7c;
 }
-	a{
-		color: white;
+	.nav-link{
+		color: #ffe484;
 	}
-	a:hover{
+	.nav-link:hover{
+		transition: 0.3s;
 		color: #563d7c;
 	}
 	button{
 		color: #563d7c;
 	}
 	button:hover{
-		color: white;
+		transition: 0.3s;
+		color: #ffe484;
 	}
 #page-wrapper > .container{
 	margin-top: 30px;
 }
 #div:hover{
-	border: 1px solid black;
+	transition: 0.5s;
+	border: 1px solid #563d7c;
 	border-radius: 20px;
 }
 #first-cog{
 	color: white;
 }
 #second-cog{
-	color: white;
+	color: #ffe484;
+}
+.button{
+	padding: 7px 10px;'
+	margin: 5px 0 20px 0;
+	color: #ffe484;
+	background-color: #563d7c;
+	border-color: #ffe484;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.button:hover{
+	transition: 0.5s;
+	padding: 7px 10px;'
+	margin: 5px 0 20px 0;
+	color: #563d7c;
+	background-color: #ffe484;
+	border-color: #ffe484;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.taimer{
+	text-align: center;
+	font-size: 300%; 
+	font-family: monospace; 
+	font-weight: bold;
+}
+.tovar-day{
+	border-bottom: 3px solid #563d7c;
+	margin-bottom: 20px;
+}
+#tovar-day-today{
+	text-align: center;
+	padding: 20px 20px 20px 20px;
+}
+#tovar-day-today:hover{
+	transition: 0.5s;
+	border: 1px solid black;
+	border-radius: 20px;
+}
+h4{
+	color: red;
+}
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  display: inline-block;
+  position: relative;
+  color: #ffe484;
+}
+.basket{
+	margin-left: 30px;
+	color: #ffe484;
+}
+.basket:hover{
+	color: rgba(255, 228, 132, 0.7);
+}
+a{
+	margin-right: 5px;
 }
