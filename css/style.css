@@ -1,5 +1,5 @@
 body{
-	font-family: Comic Sans MS, Comic Sans, cursive;
+	/*font-family: Comic Sans MS, Comic Sans, cursive;*/
 }
 .bd-navbar{
 	position: sticky;
@@ -67,6 +67,21 @@ h2{
 	border-radius: 5px;
 	cursor: pointer;
 }
+.addToCart{
+	color: #ffe484;
+	background-color: #563d7c;
+	border-color: #ffe484;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.addToCart:hover{
+	transition: 0.5s;
+	color: #563d7c;
+	background-color: #ffe484;
+	border-color: #ffe484;
+	border-radius: 5px;
+	cursor: pointer;
+}
 .taimer{
 	text-align: center;
 	font-size: 300%; 
@@ -103,6 +118,16 @@ h4{
 .basket:hover{
 	color: rgba(255, 228, 132, 0.7);
 }
-a{
-	margin-right: 5px;
+.tovar{
+	width: 30%;
+	border: 1px solid #563d7c;
+	margin: 1% 1% 1% 1%;
+	padding: 3% 3% 3% 3%;
+}
+.tovar:hover{
+	transition: 0.5s;
+	border-radius: 20px;
+}
+h6{
+	color: red;
 }
