@@ -1,1 +1,2 @@
 # KursWork-EB
+This is my coursework that I made in university for e-business subject. This is a web store that I made using Bootstrap 3 and JavaScript. For make this app like a SPA I used XmlHttpRequest and hash routing. The logic is simple, user can choose goods in catalog page and take they to the basket and amount will automatically update. Then user can go to basket page and check what he or she choose and delete this goods if they want that.
